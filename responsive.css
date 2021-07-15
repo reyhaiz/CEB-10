@@ -1,0 +1,90 @@
+@media (max-width : 1000px) {
+    .banner {
+        background-image : url(background2.png);
+    }
+    .bio {
+        margin-right : -100px;
+    }
+    .bio h2 {
+        font-size : 50px;
+    }
+    .bio h3 {
+        font-size : 60px;
+    }
+
+    /* MAIN UTAMA */
+    .main {
+        height: 150vh;
+    }
+    .main .title {
+        padding-bottom: 40px;
+    }
+    .main-side .picture{
+        width : 100%;
+        margin-bottom :40px;
+    }
+    .main-side p {
+        font-size : 20px;
+        line-height : 30px;
+        text-align: center;
+    }
+    .cards {
+        flex-direction: column;
+        
+    }
+    .card {
+        width : 32%;
+        margin : 100px auto;
+    }
+    .card:hover {
+        width : 60%;
+        margin-bottom : -18px;
+    }
+    
+}
+
+
+
+@media (max-width : 670px) {
+    
+    .header-list ul li {
+        display : none;
+    }
+    .menu span {
+        display : inline;
+        cursor: pointer;
+    }
+
+    /* VIDEO */
+    .banner video {
+        display : none;
+    }
+    .banner {
+        background: url(background2.png);
+        background-size : cover;
+        width: 100%;
+        
+    }
+    .bio {
+        margin-right : 0;
+    }
+    .bio h2 {
+        font-size : 50px;
+    }
+    .bio h3 {
+        font-size : 60px;
+    }
+
+    /* CARD ANGGOTA */
+    .cards {
+        flex-direction: column;
+        
+    }
+    .card {
+        width : 45%;
+    }
+    .card:hover {
+        width : 100%;
+        margin-bottom : -18px;
+    }
+}
